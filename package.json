@@ -29,8 +29,12 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "@types/enzyme": "^3.9.1",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
     "@types/faker": "^4.1.5",
     "@types/nock": "^10.0.1",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.12.1",
     "faker": "^4.1.0",
     "nock": "^10.0.6"
   }
