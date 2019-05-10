@@ -7,8 +7,6 @@ describe("GetRandomHorseFact", () => {
     const hostname = "https://" + faker.internet.domainName();
     const factText = faker.lorem.sentence();
 
-    // console.log(hostname);
-
     nock(hostname)
       .defaultReplyHeaders({ 'access-control-allow-origin': '*' })
       .get("/api/facts/random")
